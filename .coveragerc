@@ -1,0 +1,8 @@
+[run]
+include =
+    flask_lint/*
+
+[report]
+exclude_lines =
+    pragma: no cover
+    except ImportError:
